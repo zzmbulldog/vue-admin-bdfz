@@ -22,6 +22,7 @@ export const constantRoutes = [
   {
     path: '/',
     component: Layout,
+    redirect: '/table',
     children: [
       {
         path: 'table',
